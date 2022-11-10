@@ -1,0 +1,14 @@
+<p>routing-example2 works!</p>
+
+<ul>
+  <li *ngFor="let element of marks">
+    Course: {{element.course}} <br>
+    Marks: {{element.mks}}
+  </li>
+  <li>
+    Course: Cap920 <br>
+    Marks: {{cap920}}
+  </li>
+</ul>
+
+<input name="920" [(ngModel)]="cap920" placeholder="Enter mks for cap920">
